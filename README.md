@@ -31,4 +31,4 @@ Built with Python 3.6.4 and the following modules
 - csv
 
 ### Developed by
-Kostas Koutoupis [@kkoutoup](https://github.com/kkoutoup) for the Web and Publications Unit (WPU) of the Chambers and Committee Office (CCT), House of Commons
+Kostas Koutoupis ([@kkoutoup](https://github.com/kkoutoup)) for the Web and Publications Unit (WPU) of the Chambers and Committee Office (CCT), House of Commons
