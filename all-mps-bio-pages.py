@@ -32,7 +32,7 @@ def get_data(url):
         if hoc_pattern.fullmatch(link) and link not in data:
           #format name
           name = (re.match(hoc_pattern, link).group(1).replace('-', ' ')).title()+' MP'
-          #tackle encoding issue for weird characters for name and link and append to list
+          #tackle encoding issue for weird name characters i.e. Dr ThéRèSe  Coffey MP, óRfhlaith Begley MP etc.
           data.append(['House of Commons', urllib.parse.unquote(name, encoding='utf-8'), urllib.parse.unquote(link, encoding='utf-8')])
       else:
          if hol_pattern.fullmatch(link) and link not in data:
