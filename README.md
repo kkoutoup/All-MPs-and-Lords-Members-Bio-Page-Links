@@ -14,7 +14,7 @@ Pages parsed for URLs
 * [URLs to pages for all House of Commons MPs](https://www.parliament.uk/mps-lords-and-offices/mps/)
 * [URLs to pages for all Members of the House of Lords](https://www.parliament.uk/mps-lords-and-offices/lords/)
 
-**NOTE: UK Parliament is getting a new website. New page structure means that this scraper will break and will need to be modified in the future**
+| NOTE: UK Parliament is getting a new website. New page structure means that this scraper will break and will need to be modified in the future |
 
 .csv file contains
 - House name (Commons/Lords)
