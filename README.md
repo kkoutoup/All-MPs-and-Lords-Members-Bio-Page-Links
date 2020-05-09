@@ -1,15 +1,15 @@
 # All-MPs-and-Lords-Members-Bio-Page-Links
 
-### Category
+## Category
 Web scraping/data collection
 
-### Purpose
+## Purpose
 Collect URLs from UK Parliament website for all House of Commons MPs and House of Lords Members.
 
-### User needs
+## User needs
 A script developed to help our performance analyst run SEO/Performance checks in batches for all Bio pages (1427 URLs) using Lighthouse. Links to bio pages are collected in .csv file.
 
-### Data collected
+## Data collected
 Pages parsed for URLs
 * [URLs to pages for all House of Commons MPs](https://www.parliament.uk/mps-lords-and-offices/mps/)
 * [URLs to pages for all Members of the House of Lords](https://www.parliament.uk/mps-lords-and-offices/lords/)
@@ -21,7 +21,7 @@ Pages parsed for URLs
 - Name of MP/Lords Member
 - Link to Bio Page
 
-### Dependencies
+## Dependencies
 Built with Python 3.6.4 and the following modules
 - requests_html
 - urllib
@@ -30,5 +30,5 @@ Built with Python 3.6.4 and the following modules
 - datetime
 - csv
 
-### Developed by
+## Developed by
 Kostas Koutoupis ([@kkoutoup](https://github.com/kkoutoup)) for the Web and Publications Unit (WPU) of the Chambers and Committee Office (CCT), House of Commons
